@@ -100,7 +100,7 @@ ck.set_default_color_theme("blue")
 
 root = ck.CTk()
 root.title('Steganography Project - WE')
-root.geometry("750x600")
+root.geometry("800x600")
 root.resizable(width =False, height=False)
 root.grid_rowconfigure(0, weight = 2)
 root.grid_columnconfigure(0, weight = 2)
