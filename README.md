@@ -11,7 +11,7 @@ NumPy 1.19.0 or higher
 
 ### Clone the repository:
 
-git clone https://github.com/your_username/steghelp.git
+````git clone https://github.com/your_username/steghelp.git````
 
 ### Install the required Python libraries:
 
