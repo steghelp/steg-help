@@ -15,13 +15,13 @@ NumPy 1.19.0 or higher
 
 ### Install the required Python libraries:
 
-pip3 install numpy customtkinter opencv-python Pillow
+````pip3 install numpy customtkinter opencv-python Pillow````
 
 ## Usage
 
 To use Steghelp, get in the repo directory and run the following command:
 
-python source.py
+````python source.py````
 
 In the GUI window that appears, you can:
 
