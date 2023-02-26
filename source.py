@@ -10,7 +10,6 @@ from PIL import ImageTk
 from PIL import Image
 import  os
 
-
 def data2binary(data):
     if type(data) == str:
         p = ''.join([format(ord(i), '08b')for i in data])
