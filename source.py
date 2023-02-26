@@ -8,7 +8,6 @@ from tkinter import filedialog
 from tkinter import messagebox
 from PIL import ImageTk
 from PIL import Image
-from io import BytesIO
 import  os
 
 
