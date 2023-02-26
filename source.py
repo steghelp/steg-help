@@ -50,13 +50,13 @@ def encode():
     enc_img = filedialog.asksaveasfilename()
     enc_data = hidedata(image, data)
     cv2.imwrite(enc_img, enc_data)
-    show_image(enc_data, title="Encoded Image")
     img1 = Image.open(enc_img, 'r')
     img1 = img1.resize((w, h),Image.ANTIALIAS)
     if w != h:
         img1.save(enc_img, optimize=True, quality=65)
     else:
         img1.save(enc_img)
+    show_image(enc_data, title="Encoded Image")
 
 def find_data(img):
     bin_data = ""
