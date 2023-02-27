@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 from PIL import Image
 import tkinter as tk
-from tkinter import *
 import customtkinter as ck
 from tkinter import filedialog
 from tkinter import messagebox
